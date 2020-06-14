@@ -8,9 +8,13 @@ import {
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+import ProjectDetails from "../ProjectDetails/ProjectDetails";
+import projectsData from "../ProjectDetails/projectsData.json";
 
 const Homepage = () => {
   const [iconPositionX, setIconPositionX] = useState(null);
+  const [projectDetails, setProjectDetails] = useState(false);
+  const [selectedImagesData, setSelectedImagesData] = useState(false);
 
   function handleOver(event) {
     let positionX = (window.innerWidth / 1.05 - event.clientX) / 1.1;
@@ -75,7 +79,7 @@ const Homepage = () => {
               Front-End developer based in France.
             </h2>
             <p className="subtitleHeaderText">
-              React.JS and Node.JS specialized developer.
+              React.JS and Node.JS specialized.
             </p>
           </div>
         </div>
@@ -89,7 +93,7 @@ const Homepage = () => {
             <div className="firstColumnAbout">
               <p className="introHeader">- Contact</p>
               <h2 style={{ color: "#EBEBEC", width: "60%" }}>
-                Any type of JavaSript & contact.
+                Any type of JavaScript & contact.
               </h2>
               <p style={{ color: "#ACADB2", width: "60%" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -180,6 +184,12 @@ const Homepage = () => {
           {/* Selected projects */}
 
           <div className="selectedProjects">
+            {projectDetails ? (
+              <ProjectDetails
+                setProjectDetails={setProjectDetails}
+                imagesData={selectedImagesData}
+              />
+            ) : null}
             <div className="selectedProjectsContent">
               {/* First column portfolio  */}
 
@@ -190,11 +200,17 @@ const Homepage = () => {
                     All creative works, selected projects.
                   </h2>
                   <p style={{ width: "280px" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Inventore odit porro sequi voluptatum?
+                    Here are some of the projects I have been working last
+                    months.
                   </p>
                 </div>
-                <div className="projectCard cardBeers">
+                <div
+                  className="projectCard cardBeers"
+                  onClick={() => {
+                    setSelectedImagesData(projectsData[0]);
+                    setProjectDetails(true);
+                  }}
+                >
                   <div className="projectCardText">
                     <h2 style={{ margin: 0 }}>Wild Beers.</h2>
                     <p style={{ fontSize: "12px" }}>Branding, development</p>
@@ -222,7 +238,13 @@ const Homepage = () => {
                   />
                 </div>
 
-                <div className="projectCard">
+                <div
+                  className="projectCard"
+                  onClick={() => {
+                    setSelectedImagesData(projectsData[1]);
+                    setProjectDetails(true);
+                  }}
+                >
                   <div className="projectCardText">
                     <h2 style={{ margin: 0 }}>My Blackjack.</h2>
                     <p style={{ fontSize: "12px" }}>Game, development</p>
@@ -238,6 +260,9 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer  */}
+
       <footer>
         <div className="footerContent">
           <div className="firstColumnFooter">
@@ -248,10 +273,32 @@ const Homepage = () => {
             </p>
           </div>
           <div className="secondColumnFooter">
-            <p style={{ width: "300px" }}>
-              Looking for my very first professional experience in
-              <span className="footerSpan"> web development.</span>
-            </p>
+            <h3 style={{ margin: "10px" }}>Find me.</h3>
+            <hr className="footerSeparator" />
+            <div className="footerIconsContainer">
+              <a
+                href="https://github.com/PierreWCS"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  color="#EBEBEC"
+                  icon={faGithub}
+                  className="fa-2x iconFooter"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/pierre-legrain/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  color="#EBEBEC"
+                  icon={faLinkedin}
+                  className="fa-2x iconFooter"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </footer>

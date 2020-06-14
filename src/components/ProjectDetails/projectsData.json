@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Wild Beers",
+    "description": "Fake beer shop with the most commons features of a shop (cart, account, orders, products). There is also an admin section of the website, where the user can manage products, orders, messages and upload files directly from his interface.",
+    "technologies": "React, Node, Express, MySQL",
+    "images": [
+      {
+        "image": "wildBeers/CaptureHomepage.jpg",
+        "legend": "Home page"
+      },
+      {
+        "image": "wildBeers/captureAbout.jpg",
+        "legend": "About page"
+      },
+      {
+        "image": "wildBeers/captureLogin.PNG",
+        "legend": "Login page"
+      },
+      {
+        "image": "wildBeers/captureSales.png",
+        "legend": "Admin page"
+      },
+      {
+        "image": "wildBeers/captureAdmin.png",
+        "legend": "Admin uploads"
+      },
+      {
+        "image": "wildBeers/captureMsgs.png",
+        "legend": "Admin messages"
+      }
+    ]
+  },
+  {
+    "name": "Solo blackjack",
+    "description": "Web application for playing blackjack against the Bank. User can bet an amount of coins every round, and as the official rules, he gets the rewards he he wins",
+    "technologies": "React",
+    "images": [
+      {
+        "image": "blackjack/blackjackHomepage.jpg",
+        "legend": "Home page"
+      },
+      {
+        "image": "blackjack/my-blackjack.jpg",
+        "legend": "Game"
+      },
+      {
+        "image": "blackjack/blackjackWin.jpg",
+        "legend": "Victory"
+      }
+    ]
+  },
+  [
+
+  ]
+]
