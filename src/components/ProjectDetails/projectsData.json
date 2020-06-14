@@ -3,6 +3,7 @@
     "name": "Wild Beers",
     "description": "Fake beer shop with the most commons features of a shop (cart, account, orders, products). There is also an admin section of the website, where the user can manage products, orders, messages and upload files directly from his interface.",
     "technologies": "React, Node, Express, MySQL",
+    "link": "https://github.com/PierreWCS/beer-shop",
     "images": [
       {
         "image": "wildBeers/CaptureHomepage.jpg",
@@ -32,8 +33,9 @@
   },
   {
     "name": "Solo blackjack",
-    "description": "Web application for playing blackjack against the Bank. User can bet an amount of coins every round, and as the official rules, he gets the rewards he he wins",
+    "description": "Web application for playing blackjack against the Bank. User can bet an amount of coins every round, and as the official rules, he gets the rewards if he wins",
     "technologies": "React",
+    "link": "https://github.com/PierreWCS/blackjack",
     "images": [
       {
         "image": "blackjack/blackjackHomepage.jpg",
@@ -50,6 +52,5 @@
     ]
   },
   [
-
   ]
 ]

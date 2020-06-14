@@ -220,6 +220,7 @@ const Homepage = () => {
                     src={require("../../assets/images/wildbeers.PNG")}
                     alt="blackjack"
                   />
+                  <p className="clickToSeeProject">Click for more details</p>
                 </div>
               </div>
 
@@ -236,6 +237,7 @@ const Homepage = () => {
                     src={require("../../assets/images/mysiege.PNG")}
                     alt="blackjack"
                   />
+                  <p className="clickToSeeProject">Click for more details</p>
                 </div>
 
                 <div
@@ -254,6 +256,7 @@ const Homepage = () => {
                     src={require("../../assets/images/my-blackjack - Copie.PNG")}
                     alt="blackjack"
                   />
+                  <p className="clickToSeeProject">Click for more details</p>
                 </div>
               </div>
             </div>

@@ -6,7 +6,6 @@ export default ({ imagesData }) => (
   <Carousel>
     {imagesData
       ? imagesData.images.map((projectImage, key) => {
-          console.log(projectImage);
           return (
             <div key={key}>
               <img

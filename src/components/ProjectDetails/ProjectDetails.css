@@ -17,16 +17,25 @@
     position: absolute;
     top: 5%;
     right: 5%;
-    background-color: #ACADB2;
-    color: #252734;
+    background-color: #252734;
+    border: solid 1px #ACADB2;
+    color: #ACADB2;
     padding: 10px 15px;
-    border: none;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
+    transition: ease-in-out 200ms;
+}
+.closeDetailsButton:hover {
+    border-color: lightcoral;
+    color: lightcoral;
 }
 
 .projectDetailsContainer h3 {
     color: #EBEBEC;
+}
+
+.projectDetailsContainer h2 {
+    color: #FFAF29;
 }
 
 .projectDetailsContainer p {
@@ -42,8 +51,7 @@
 
 .screenshotsContainer {
     width: 100%;
-    height: 100%;
-    overflow: auto;
+    height: 20%;
 }
 
 .secondColDetails {
@@ -54,4 +62,23 @@
     text-align: start;
     width: 25%;
     height: 90%;
+}
+
+.githubLinkDetails {
+    margin: 25px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    background-color: #252734;
+    border: solid 1px #EBEBEC;
+    padding: 10px 15px;
+    color: #EBEBEC;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    transition: ease-in-out 200ms;
+}
+.githubLinkDetails:hover {
+    border-color: #FFAF29;
+    color: #FFAF29;
 }

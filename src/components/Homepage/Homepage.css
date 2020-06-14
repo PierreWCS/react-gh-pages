@@ -262,9 +262,13 @@
   color: #EBEBEC;
   font-family: 'Open Sans', sans-serif;
   transition: ease-in-out 0.3s;
+  cursor: pointer;
 }
 .projectCard:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
+}
+.projectCard:hover .clickToSeeProject {
+  display: initial;
 }
 
 .projectCardText {
@@ -279,6 +283,17 @@
 
 .projectCardImage {
   width: 100%;
+  height: 250px;
+}
+
+.clickToSeeProject {
+  display: none;
+  text-align: center;
+  margin: 5px 0;
+  box-sizing: border-box;
+  transition: ease-in-out 600ms;
+  color: #EBEBEC;
+  background-color: #252734;
 }
 
 .cardBeers {
