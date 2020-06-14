@@ -73,7 +73,7 @@ const Homepage = () => {
             <div className="secColumnAbout">
               <h3 style={{ color: "#EBEBEC" }}>
                 You can't use up creativity, the more you use, more you have in
-                four significant mind.
+                your significant mind.
               </h3>
               <p style={{ color: "#ACADB2" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
