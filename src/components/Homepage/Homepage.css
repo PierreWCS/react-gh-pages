@@ -202,7 +202,7 @@
   text-align: start;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .firstColumnSelectedProjects h2 {
@@ -227,10 +227,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 480px;
+  height: 300px;
   width: 400px;
   color: #EBEBEC;
   font-family: 'Open Sans', sans-serif;
+  transition: ease-in-out 0.3s;
+}
+.projectCard:hover {
+  transform: scale(1.8);
 }
 
 .projectCardText {
@@ -245,6 +249,10 @@
 
 .projectCardImage {
   width: 100%;
+}
+
+.cardBeers {
+  margin-top: 250px;
 }
 
 /*  Footer  */

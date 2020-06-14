@@ -67,7 +67,7 @@ const Homepage = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
               <p style={{ color: "#FFAF29", textDecoration: "underline" }}>
-                contact@mail.com
+                pierrelegrain45@gmail.com
               </p>
             </div>
             <div className="secColumnAbout">
@@ -166,7 +166,7 @@ const Homepage = () => {
                     Inventore odit porro sequi voluptatum?
                   </p>
                 </div>
-                <div className="projectCard">
+                <div className="projectCard cardBeers">
                   <div className="projectCardText">
                     <h2 style={{ margin: 0 }}>Wild Beers.</h2>
                     <p style={{ fontSize: "12px" }}>Branding, development</p>
@@ -201,7 +201,7 @@ const Homepage = () => {
                   </div>
                   <img
                     className="projectCardImage"
-                    src={require("../../assets/images/blackjack.PNG")}
+                    src={require("../../assets/images/my-blackjack - Copie.PNG")}
                     alt="blackjack"
                   />
                 </div>
@@ -219,7 +219,7 @@ const Homepage = () => {
           </p>
         </div>
         <div className="secondColumnFooter">
-          <p>Looking for my very first development professional experience</p>
+          <p>Looking for my very first development professional experience.</p>
         </div>
       </footer>
     </div>
