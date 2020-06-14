@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Homepage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,12 +10,34 @@ import {
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Homepage = () => {
+  const [iconPositionX, setIconPositionX] = useState(null);
+
+  function handleOver(event) {
+    let positionX = (window.innerWidth / 1.05 - event.clientX) / 1.1;
+    if (positionX > 100 && positionX < 1870) {
+      setIconPositionX(positionX);
+    }
+  }
+
   return (
     <div className="homePageContainer">
       {/*   Header    */}
-      <div className="header">
+      <div className="header" onMouseMove={(event) => handleOver(event)}>
         <div className="headerContent">
-          <div className="columnOneHeader">
+          <FontAwesomeIcon
+            style={{
+              position: "absolute",
+              zIndex: "0",
+              left: iconPositionX || "10%",
+              top: "15%",
+              transition: "transform ease 200ms",
+            }}
+            color="orange"
+            icon={faReact}
+            id="techIcons"
+            className="fa-4x reactIconHeader"
+          />
+          <div style={{ zIndex: 1 }} className="columnOneHeader">
             <p className="nameTitle">Pierre</p>
             <p className="nameTitle">Legrain.</p>
             <hr className="separatorHeader" />
@@ -24,10 +46,12 @@ const Homepage = () => {
                 style={{ color: "inherit" }}
                 href="https://github.com/PierreWCS"
                 target="_blank"
+                rel="noopener noreferrer"
+                className="linkIconHeader"
               >
                 <FontAwesomeIcon
                   icon={faGithub}
-                  className="fa-2x"
+                  className="fa-2x iconHeader"
                   style={{ marginRight: "25px" }}
                 />
               </a>
@@ -35,19 +59,23 @@ const Homepage = () => {
                 style={{ color: "inherit" }}
                 href="https://www.linkedin.com/in/pierre-legrain/"
                 target="_blank"
+                rel="noopener noreferrer"
+                className="linkIconHeader"
               >
-                <FontAwesomeIcon icon={faLinkedin} className="fa-2x" />
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="fa-2x iconHeader"
+                />
               </a>
             </div>
           </div>
-          <div className="columnTwoHeader">
+          <div style={{ zIndex: 1 }} className="columnTwoHeader">
             <p className="introHeader">- Introduction</p>
             <h2 className="subtitleHeader">
               Front-End developer based in France.
             </h2>
             <p className="subtitleHeaderText">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
-              dicta et exercitationem itaque.
+              React.JS and Node.JS specialized developer.
             </p>
           </div>
         </div>
@@ -106,7 +134,7 @@ const Homepage = () => {
                 />
                 <div className="projectSquareTextContainer">
                   <p className="projectSquareTitle">React.</p>
-                  <p style={{ margin: 0, fontSize: "12px" }}>13 projects</p>
+                  <p style={{ margin: 0, fontSize: "12px" }}>6 projects</p>
                 </div>
               </div>
             </div>
@@ -123,7 +151,7 @@ const Homepage = () => {
                 <div className="projectSquareTextContainer">
                   <p className="projectSquareTitle">Node.</p>
                   <p style={{ margin: 0, fontSize: "12px", color: "#ACADB2" }}>
-                    6 projects
+                    3 projects
                   </p>
                 </div>
               </div>
@@ -142,7 +170,7 @@ const Homepage = () => {
                 <div className="projectSquareTextContainer">
                   <p className="projectSquareTitle">React Native.</p>
                   <p style={{ margin: 0, fontSize: "12px", color: "#ACADB2" }}>
-                    3 projects
+                    2 projects
                   </p>
                 </div>
               </div>
@@ -211,15 +239,20 @@ const Homepage = () => {
         </div>
       </div>
       <footer>
-        <div className="firstColumnFooter">
-          <p>Got a project?</p>
-          <p>Let's talk about it.</p>
-          <p style={{ color: "#FFAF29", textDecoration: "underline" }}>
-            pierrelegrain45@gmail.com
-          </p>
-        </div>
-        <div className="secondColumnFooter">
-          <p>Looking for my very first development professional experience.</p>
+        <div className="footerContent">
+          <div className="firstColumnFooter">
+            <p>Looking for a front-end developer?</p>
+            <p>Let's talk about it.</p>
+            <p style={{ color: "#FFAF29", textDecoration: "underline" }}>
+              pierrelegrain45@gmail.com
+            </p>
+          </div>
+          <div className="secondColumnFooter">
+            <p style={{ width: "300px" }}>
+              Looking for my very first professional experience in
+              <span className="footerSpan"> web development.</span>
+            </p>
+          </div>
         </div>
       </footer>
     </div>

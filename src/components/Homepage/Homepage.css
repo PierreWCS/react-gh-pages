@@ -1,5 +1,24 @@
 /*  Home page style  */
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #252734;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffaf29;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ACADB2;
+}
+
 .homePageContainer {
   width: 100%;
 }
@@ -47,6 +66,17 @@
   display: flex;
   justify-content: flex-start;
   margin: 75px 0 0 0;
+}
+
+.iconHeader {
+  transition: ease-in-out 0.2s;
+}
+
+.linkIconHeader:hover {
+  transform: scale(1.1);
+}
+.linkIconHeader:hover .iconHeader {
+  color: #ffaf29;
 }
 
 .columnTwoHeader {
@@ -262,16 +292,42 @@ footer {
   color: #EBEBEC;
   height: 25vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: start;
 }
 
+.footerContent {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstColumnFooter {
+  width: 50%;
+}
+
+.secondColumnFooter {
+  width: 50%;
+  text-align: end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footerSpan {
+  font-size: 20px;
+  color: #FFAF29;
+}
 /*  Responsive  */
 
 @media (max-width: 1060px) {
   .header {
     height: 120vh;
+  }
+
+  .reactIconHeader {
+    display: none;
   }
 
   .headerContent {
@@ -357,10 +413,20 @@ footer {
     height: 50vh;
   }
 
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .firstColumnFooter {
+    width: 100%;
+  }
+
   .secondColumnFooter {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
+    text-align: start;
   }
   .secondColumnFooter p {
     width: 60%;
