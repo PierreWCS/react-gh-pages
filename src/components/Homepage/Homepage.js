@@ -10,7 +10,6 @@ import {
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import ProjectDetails from "../ProjectDetails/ProjectDetails";
 import projectsData from "../ProjectDetails/projectsData.json";
-import { Link } from "react-router-dom";
 
 const Homepage = () => {
   const [iconPositionX, setIconPositionX] = useState(null);
@@ -45,7 +44,6 @@ const Homepage = () => {
           <div style={{ zIndex: 1 }} className="columnOneHeader">
             <p className="nameTitle">Pierre</p>
             <p className="nameTitle">Legrain.</p>
-            <Link to="/about">About</Link>
             <hr className="separatorHeader" />
             <div className="iconContainer">
               <a
