@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.e87327ec.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.d78557ea.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.d78557ea.chunk.js.map",
+    "main.js": "/react-gh-pages/static/js/main.d58f33bd.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.d58f33bd.chunk.js.map",
     "runtime-main.js": "/react-gh-pages/static/js/runtime-main.baa204dc.js",
     "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.baa204dc.js.map",
     "static/css/2.afd40c00.chunk.css": "/react-gh-pages/static/css/2.afd40c00.chunk.css",
-    "static/js/2.8c4315d3.chunk.js": "/react-gh-pages/static/js/2.8c4315d3.chunk.js",
-    "static/js/2.8c4315d3.chunk.js.map": "/react-gh-pages/static/js/2.8c4315d3.chunk.js.map",
+    "static/js/2.14c2f4cb.chunk.js": "/react-gh-pages/static/js/2.14c2f4cb.chunk.js",
+    "static/js/2.14c2f4cb.chunk.js.map": "/react-gh-pages/static/js/2.14c2f4cb.chunk.js.map",
     "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.acdcf4ffa1478d58a49990d6f5af6b3e.js": "/react-gh-pages/precache-manifest.acdcf4ffa1478d58a49990d6f5af6b3e.js",
+    "precache-manifest.4746398e582661d7ca9b4adfd24a08f7.js": "/react-gh-pages/precache-manifest.4746398e582661d7ca9b4adfd24a08f7.js",
     "service-worker.js": "/react-gh-pages/service-worker.js",
     "static/css/2.afd40c00.chunk.css.map": "/react-gh-pages/static/css/2.afd40c00.chunk.css.map",
     "static/css/main.e87327ec.chunk.css.map": "/react-gh-pages/static/css/main.e87327ec.chunk.css.map",
-    "static/js/2.8c4315d3.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.8c4315d3.chunk.js.LICENSE.txt",
+    "static/js/2.14c2f4cb.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.14c2f4cb.chunk.js.LICENSE.txt",
     "static/media/CaptureHomepage.jpg": "/react-gh-pages/static/media/CaptureHomepage.8ddfa14e.jpg",
     "static/media/WildBeersAbout.png": "/react-gh-pages/static/media/WildBeersAbout.17cc62f3.png",
     "static/media/blackjack.PNG": "/react-gh-pages/static/media/blackjack.39be92a0.PNG",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.baa204dc.js",
     "static/css/2.afd40c00.chunk.css",
-    "static/js/2.8c4315d3.chunk.js",
+    "static/js/2.14c2f4cb.chunk.js",
     "static/css/main.e87327ec.chunk.css",
-    "static/js/main.d78557ea.chunk.js"
+    "static/js/main.d58f33bd.chunk.js"
   ]
 }
