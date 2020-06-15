@@ -10,6 +10,7 @@ import {
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import ProjectDetails from "../ProjectDetails/ProjectDetails";
 import projectsData from "../ProjectDetails/projectsData.json";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   const [iconPositionX, setIconPositionX] = useState(null);
@@ -44,6 +45,7 @@ const Homepage = () => {
           <div style={{ zIndex: 1 }} className="columnOneHeader">
             <p className="nameTitle">Pierre</p>
             <p className="nameTitle">Legrain.</p>
+            <Link to="/about">About</Link>
             <hr className="separatorHeader" />
             <div className="iconContainer">
               <a
@@ -96,7 +98,7 @@ const Homepage = () => {
                 Any type of JavaScript & contact.
               </h2>
               <p style={{ color: "#ACADB2", width: "60%" }}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Send me an email.
               </p>
               <p style={{ color: "#FFAF29", textDecoration: "underline" }}>
                 pierrelegrain45@gmail.com

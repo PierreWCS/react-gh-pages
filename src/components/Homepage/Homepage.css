@@ -52,6 +52,7 @@
   margin: -10px 0;
   font-weight: bold;
   letter-spacing: 0.2rem;
+  text-shadow: 0 3px 9px #252734,0 -2px 1px #fff;
 }
 
 .separatorHeader {
