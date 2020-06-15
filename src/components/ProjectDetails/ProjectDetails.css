@@ -82,3 +82,39 @@
     border-color: #FFAF29;
     color: #FFAF29;
 }
+
+@media (max-width: 1060px) {
+    .projectDetailsContainer {
+        padding: 50px 15px;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .closeDetailsButton {
+        top: 1%;
+        right: 1%;
+    }
+
+    .firstColDetails {
+        height: 40%;
+        width: 90%;
+    }
+
+    .secondColDetails {
+        height: 50%;
+        width: 90%;
+    }
+
+    .secondColDetails h2 {
+        margin: 25px 0;
+    }
+
+    .secondColDetails h3, .secondColDetails p {
+        margin: 5px 0;
+    }
+}

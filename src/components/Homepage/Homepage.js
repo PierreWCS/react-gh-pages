@@ -199,7 +199,7 @@ const Homepage = () => {
                   <h2 style={{ width: "250px" }}>
                     All creative works, selected projects.
                   </h2>
-                  <p style={{ width: "280px" }}>
+                  <p className="projectsLastMonthsText">
                     Here are some of the projects I have been working last
                     months.
                   </p>
