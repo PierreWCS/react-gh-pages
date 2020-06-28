@@ -209,6 +209,7 @@ const Homepage = () => {
                   onClick={() => {
                     setSelectedImagesData(projectsData[0]);
                     setProjectDetails(true);
+                    document.body.style.overflow = "hidden";
                   }}
                 >
                   <div className="projectCardText">
@@ -227,7 +228,14 @@ const Homepage = () => {
               {/* Second column portfolio  */}
 
               <div className="secondColumnSelectedProjects">
-                <div className="projectCard">
+                <div
+                  className="projectCard"
+                  onClick={() => {
+                    setSelectedImagesData(projectsData[2]);
+                    setProjectDetails(true);
+                    document.body.style.overflow = "hidden";
+                  }}
+                >
                   <div className="projectCardText">
                     <h2 style={{ margin: 0 }}>My Siege.</h2>
                     <p style={{ fontSize: "12px" }}>Api, Development</p>
@@ -245,6 +253,7 @@ const Homepage = () => {
                   onClick={() => {
                     setSelectedImagesData(projectsData[1]);
                     setProjectDetails(true);
+                    document.body.style.overflow = "hidden";
                   }}
                 >
                   <div className="projectCardText">
@@ -263,6 +272,8 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+
+      {/* Skills  */}
 
       {/* Footer  */}
 

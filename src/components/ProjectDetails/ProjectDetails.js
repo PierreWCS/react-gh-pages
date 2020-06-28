@@ -8,7 +8,10 @@ const ProjectDetails = ({ setProjectDetails, imagesData }) => {
     <div className="projectDetailsContainer">
       <button
         className="closeDetailsButton"
-        onClick={() => setProjectDetails(false)}
+        onClick={() => {
+          document.body.style.overflow = "auto";
+          setProjectDetails(false);
+        }}
       >
         Close
       </button>
@@ -28,6 +31,14 @@ const ProjectDetails = ({ setProjectDetails, imagesData }) => {
           className="githubLinkDetails"
         >
           See on Github
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={imagesData.demo}
+          className="githubLinkDetails"
+        >
+          Try the demo
         </a>
       </div>
     </div>

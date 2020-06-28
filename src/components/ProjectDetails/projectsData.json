@@ -1,8 +1,9 @@
 [
   {
     "name": "Wild Beers",
-    "description": "Fake beer shop with the most commons features of a shop (cart, account, orders, products). There is also an admin section of the website, where the user can manage products, orders, messages and upload files directly from his interface.",
+    "description": "Fake beer shop with the most commons features of a shop (cart, account, orders, products) with an admin panel.",
     "technologies": "React, Node, Express, MySQL",
+    "demo": "https://beer-shop-wcs.netlify.app/",
     "link": "https://github.com/PierreWCS/beer-shop",
     "images": [
       {
@@ -33,8 +34,9 @@
   },
   {
     "name": "Solo blackjack",
-    "description": "Web application for playing blackjack against the Bank. User can bet an amount of coins every round, and as the official rules, he gets the rewards if he wins",
+    "description": "Web application for playing blackjack against the Bank. User can bet an amount of coins every round.",
     "technologies": "React",
+    "demo": "https://my-blackjack.netlify.app/",
     "link": "https://github.com/PierreWCS/blackjack",
     "images": [
       {
@@ -51,6 +53,29 @@
       }
     ]
   },
-  [
-  ]
+  {
+    "name": "Siege Stats",
+    "description": "Web application to get advanced statistics about Rainbow Six Siege players, with propositions during typing the username.",
+    "technologies": "React, Rainbow Six Siege API",
+    "demo": "https://my-siege.netlify.app/",
+    "link": "https://github.com/PierreWCS/blackjack",
+    "images": [
+      {
+        "image": "Siege/HomePage.jpg",
+        "legend": "Home page"
+      },
+      {
+        "image": "Siege/searchAplayer.jpg",
+        "legend": "Player research"
+      },
+      {
+        "image": "Siege/overviewRanked.jpg",
+        "legend": "Stats overview"
+      },
+      {
+        "image": "Siege/operators.jpg",
+        "legend": "Stats by operator"
+      }
+    ]
+  }
 ]

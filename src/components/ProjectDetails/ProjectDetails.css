@@ -83,6 +83,10 @@
     color: #FFAF29;
 }
 
+.thumb.selected {
+    border: 3px solid white;
+}
+
 @media (max-width: 1060px) {
     .projectDetailsContainer {
         padding: 50px 15px;
@@ -106,8 +110,9 @@
     }
 
     .secondColDetails {
-        height: 50%;
+        height: 60%;
         width: 90%;
+        overflow: auto;
     }
 
     .secondColDetails h2 {

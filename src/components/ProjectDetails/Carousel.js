@@ -1,9 +1,9 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import "../../assets/images/WildBeersAbout.png";
+import "./ProjectDetails.css";
 
 export default ({ imagesData }) => (
-  <Carousel>
+  <Carousel infiniteLoop={true} autoPlay showThumbs={false}>
     {imagesData
       ? imagesData.images.map((projectImage, key) => {
           return (
