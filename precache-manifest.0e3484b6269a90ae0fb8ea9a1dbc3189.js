@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c0014585da72af5bbfbdf17b634e76c",
+    "revision": "db9df05f471b1b3156540e8d2ff013e9",
     "url": "/react-gh-pages/index.html"
   },
   {
-    "revision": "32ebfe17cf6839fc0c27",
+    "revision": "9eb80ae92ed53a6acda4",
     "url": "/react-gh-pages/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "6d58b4b9b861f4c4da2a",
-    "url": "/react-gh-pages/static/css/main.e87327ec.chunk.css"
+    "revision": "005fe617f73524254080",
+    "url": "/react-gh-pages/static/css/main.292f5b82.chunk.css"
   },
   {
-    "revision": "32ebfe17cf6839fc0c27",
-    "url": "/react-gh-pages/static/js/2.14c2f4cb.chunk.js"
+    "revision": "9eb80ae92ed53a6acda4",
+    "url": "/react-gh-pages/static/js/2.2b604052.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/react-gh-pages/static/js/2.14c2f4cb.chunk.js.LICENSE.txt"
+    "url": "/react-gh-pages/static/js/2.2b604052.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d58b4b9b861f4c4da2a",
-    "url": "/react-gh-pages/static/js/main.686edea0.chunk.js"
+    "revision": "005fe617f73524254080",
+    "url": "/react-gh-pages/static/js/main.4301d02d.chunk.js"
   },
   {
     "revision": "75ed6fca3955327d5e61",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ddfa14ebb7ea2ac0f013d80cda26bbb",
     "url": "/react-gh-pages/static/media/CaptureHomepage.8ddfa14e.jpg"
+  },
+  {
+    "revision": "d6fb7d67fe8b1f20c5dde5df190496dc",
+    "url": "/react-gh-pages/static/media/HomePage.d6fb7d67.jpg"
   },
   {
     "revision": "17cc62f308d77927b722749ad9a5e75c",
@@ -78,6 +82,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d3a12409f127c64be33e743ec7fd6c02",
     "url": "/react-gh-pages/static/media/mysiege.d3a12409.PNG"
+  },
+  {
+    "revision": "b7b70ce009302274c9577717500b1b39",
+    "url": "/react-gh-pages/static/media/operators.b7b70ce0.jpg"
+  },
+  {
+    "revision": "34de022c96e7ce05e3b4363202bca392",
+    "url": "/react-gh-pages/static/media/overviewRanked.34de022c.jpg"
+  },
+  {
+    "revision": "5b656b2c58a255b48b427bd87e1039e7",
+    "url": "/react-gh-pages/static/media/searchAplayer.5b656b2c.jpg"
   },
   {
     "revision": "e8a81de387892fe158673d6fd66aa121",

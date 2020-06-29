@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.e87327ec.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.686edea0.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.686edea0.chunk.js.map",
+    "main.css": "/react-gh-pages/static/css/main.292f5b82.chunk.css",
+    "main.js": "/react-gh-pages/static/js/main.4301d02d.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.4301d02d.chunk.js.map",
     "runtime-main.js": "/react-gh-pages/static/js/runtime-main.baa204dc.js",
     "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.baa204dc.js.map",
     "static/css/2.afd40c00.chunk.css": "/react-gh-pages/static/css/2.afd40c00.chunk.css",
-    "static/js/2.14c2f4cb.chunk.js": "/react-gh-pages/static/js/2.14c2f4cb.chunk.js",
-    "static/js/2.14c2f4cb.chunk.js.map": "/react-gh-pages/static/js/2.14c2f4cb.chunk.js.map",
+    "static/js/2.2b604052.chunk.js": "/react-gh-pages/static/js/2.2b604052.chunk.js",
+    "static/js/2.2b604052.chunk.js.map": "/react-gh-pages/static/js/2.2b604052.chunk.js.map",
     "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.02a01ea0fa6aef60775487561e3fcf27.js": "/react-gh-pages/precache-manifest.02a01ea0fa6aef60775487561e3fcf27.js",
+    "precache-manifest.0e3484b6269a90ae0fb8ea9a1dbc3189.js": "/react-gh-pages/precache-manifest.0e3484b6269a90ae0fb8ea9a1dbc3189.js",
     "service-worker.js": "/react-gh-pages/service-worker.js",
     "static/css/2.afd40c00.chunk.css.map": "/react-gh-pages/static/css/2.afd40c00.chunk.css.map",
-    "static/css/main.e87327ec.chunk.css.map": "/react-gh-pages/static/css/main.e87327ec.chunk.css.map",
-    "static/js/2.14c2f4cb.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.14c2f4cb.chunk.js.LICENSE.txt",
+    "static/css/main.292f5b82.chunk.css.map": "/react-gh-pages/static/css/main.292f5b82.chunk.css.map",
+    "static/js/2.2b604052.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.2b604052.chunk.js.LICENSE.txt",
     "static/media/CaptureHomepage.jpg": "/react-gh-pages/static/media/CaptureHomepage.8ddfa14e.jpg",
+    "static/media/HomePage.jpg": "/react-gh-pages/static/media/HomePage.d6fb7d67.jpg",
     "static/media/WildBeersAbout.png": "/react-gh-pages/static/media/WildBeersAbout.17cc62f3.png",
     "static/media/blackjack.PNG": "/react-gh-pages/static/media/blackjack.39be92a0.PNG",
     "static/media/blackjackHomepage.jpg": "/react-gh-pages/static/media/blackjackHomepage.6b3616c5.jpg",
@@ -27,13 +28,16 @@
     "static/media/my-blackjack - Copie.PNG": "/react-gh-pages/static/media/my-blackjack - Copie.86e4f0bc.PNG",
     "static/media/my-blackjack.jpg": "/react-gh-pages/static/media/my-blackjack.bf53ce19.jpg",
     "static/media/mysiege.PNG": "/react-gh-pages/static/media/mysiege.d3a12409.PNG",
+    "static/media/operators.jpg": "/react-gh-pages/static/media/operators.b7b70ce0.jpg",
+    "static/media/overviewRanked.jpg": "/react-gh-pages/static/media/overviewRanked.34de022c.jpg",
+    "static/media/searchAplayer.jpg": "/react-gh-pages/static/media/searchAplayer.5b656b2c.jpg",
     "static/media/wildbeers.PNG": "/react-gh-pages/static/media/wildbeers.e8a81de3.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.baa204dc.js",
     "static/css/2.afd40c00.chunk.css",
-    "static/js/2.14c2f4cb.chunk.js",
-    "static/css/main.e87327ec.chunk.css",
-    "static/js/main.686edea0.chunk.js"
+    "static/js/2.2b604052.chunk.js",
+    "static/css/main.292f5b82.chunk.css",
+    "static/js/main.4301d02d.chunk.js"
   ]
 }
