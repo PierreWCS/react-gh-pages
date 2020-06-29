@@ -1,14 +1,17 @@
 /*  Project details style   */
 .projectDetailsContainer {
-    top: 5%;
-    left: 5%;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    box-sizing: border-box;
     position: fixed;
-    height: 90vh;
-    width: 90%;
+    height: 100vh;
+    width: 100%;
     background-color: #252734;
     z-index: 2;
     font-family: 'Open Sans', sans-serif;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -18,8 +21,8 @@
     top: 5%;
     right: 5%;
     background-color: #252734;
-    border: solid 1px #ACADB2;
-    color: #ACADB2;
+    border: solid 1px #e74c3c;
+    color: #e74c3c;
     padding: 10px 15px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
@@ -45,8 +48,9 @@
 .firstColDetails {
     display: flex;
     flex-direction: column;
-    width: 65%;
-    height: 90%;
+    width: 50%;
+    padding-top: 25px;
+    box-sizing: border-box;
 }
 
 .screenshotsContainer {
@@ -60,12 +64,12 @@
     box-sizing: border-box;
     flex-direction: column;
     text-align: start;
-    width: 25%;
+    overflow: auto;
+    width: 65%;
     height: 90%;
 }
 
 .githubLinkDetails {
-    margin: 25px 0 0 0;
     text-align: center;
     text-decoration: none;
     width: 150px;
@@ -83,8 +87,49 @@
     color: #FFAF29;
 }
 
-.thumb.selected {
-    border: 3px solid white;
+.buttonsContainerProjectDetails {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.imageFullSizeContainer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.projectImageFullScreen {
+    max-height: 90%;
+}
+
+.closeImageFullScreen {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    border: none;
+    background-color: transparent;
+    animation: shake infinite 2s;
+}
+.closeImageFullScreen:hover {
+    color: #FFAF29;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+
+@keyframes shake {
+    from {
+        transform: rotateY(5deg);
+    }
+    to {
+        transform: rotateY(-5deg);
+    }
 }
 
 @media (max-width: 1060px) {
@@ -105,7 +150,7 @@
     }
 
     .firstColDetails {
-        height: 40%;
+        margin-bottom: 25px;
         width: 90%;
     }
 
@@ -113,13 +158,31 @@
         height: 60%;
         width: 90%;
         overflow: auto;
+        padding: 5px;
     }
 
     .secondColDetails h2 {
-        margin: 25px 0;
+        margin: 0 0 15px 0;
     }
 
     .secondColDetails h3, .secondColDetails p {
         margin: 5px 0;
+    }
+
+    .buttonsContainerProjectDetails {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .githubLinkDetails {
+        margin: 15px 0;
+    }
+
+    .imageFullSizeContainer {
+        top: 0;
+    }
+
+    .projectImageFullScreen {
+        max-height: 25%;
     }
 }
