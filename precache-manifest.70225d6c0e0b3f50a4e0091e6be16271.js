@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db9df05f471b1b3156540e8d2ff013e9",
+    "revision": "155e2ab1fc5e133861c386e160e7a224",
     "url": "/react-gh-pages/index.html"
   },
   {
-    "revision": "9eb80ae92ed53a6acda4",
+    "revision": "13f1bed1f0fa6b503a40",
     "url": "/react-gh-pages/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "005fe617f73524254080",
-    "url": "/react-gh-pages/static/css/main.292f5b82.chunk.css"
+    "revision": "8b2adfbf2cf7e528f986",
+    "url": "/react-gh-pages/static/css/main.4da98b9d.chunk.css"
   },
   {
-    "revision": "9eb80ae92ed53a6acda4",
-    "url": "/react-gh-pages/static/js/2.2b604052.chunk.js"
+    "revision": "13f1bed1f0fa6b503a40",
+    "url": "/react-gh-pages/static/js/2.12a1ad61.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/react-gh-pages/static/js/2.2b604052.chunk.js.LICENSE.txt"
+    "url": "/react-gh-pages/static/js/2.12a1ad61.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "005fe617f73524254080",
-    "url": "/react-gh-pages/static/js/main.4301d02d.chunk.js"
+    "revision": "8b2adfbf2cf7e528f986",
+    "url": "/react-gh-pages/static/js/main.921075af.chunk.js"
   },
   {
     "revision": "75ed6fca3955327d5e61",
@@ -73,7 +73,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "86e4f0bcc36b16f426894e92eea0231e",
-    "url": "/react-gh-pages/static/media/my-blackjack - Copie.86e4f0bc.PNG"
+    "url": "/react-gh-pages/static/media/my-blackjack.86e4f0bc.PNG"
   },
   {
     "revision": "bf53ce199419e5b61eacbe60d25f6c6e",
