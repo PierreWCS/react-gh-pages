@@ -1,0 +1,81 @@
+/*  About section   */
+
+.aboutContainer {
+  background-color: #252734;
+  width: 100%;
+  padding: 15rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutContent {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.columnAboutContainer {
+  display: flex;
+  text-align: start;
+  justify-content: center;
+}
+
+.firstColumnAbout {
+  width: 50%;
+}
+
+.secColumnAbout {
+  width: 50%;
+}
+
+.expProjectsContainer {
+  display: flex;
+  align-items: flex-end;
+  height: 80px;
+}
+
+.numberExpProject {
+  color: #ffaf29;
+  font-size: 58px;
+  margin: 0;
+}
+
+.textExpProject {
+  color: #ebebec;
+  margin: 0 30px 15px 10px;
+}
+
+@media (max-width: 1060px) {
+  .aboutContainer {
+    height: auto;
+    padding: 50px 25px;
+    box-sizing: border-box;
+  }
+
+  .aboutContent {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .columnAboutContainer {
+    flex-direction: column;
+  }
+
+  .firstColumnAbout {
+    width: 100%;
+  }
+
+  .secColumnAbout {
+    width: 100%;
+  }
+
+  .numberExpProject {
+    font-size: 42px;
+  }
+
+  .textExpProject {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,104 @@
+/*  Projects  */
+
+.projects {
+  background-color: #333646;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.projectsContent {
+  width: 60%;
+}
+
+.projectsSquareContainer {
+  display: flex;
+  margin-top: -130px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.projectsSquare {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 17rem;
+  height: 17rem;
+  background-color: #424657;
+  color: #ebebec;
+  box-sizing: border-box;
+  padding: 45px 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: start;
+}
+
+.iconTextProjectSquare {
+  display: flex;
+  width: 200px;
+}
+
+.projectSquareTitle {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.projectSquareTextContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.orangeSquare {
+  background-color: #ffaf29;
+  color: #fff7ea;
+}
+
+/* Responsive */
+
+@media (max-width: 1060px) {
+  .projects {
+    height: auto;
+    padding: 50px 25px;
+    box-sizing: border-box;
+  }
+
+  .selectedProjects {
+    height: auto;
+  }
+
+  .projectsLastMonthsText {
+    width: auto;
+  }
+
+  .projectsContent {
+    width: 80%;
+  }
+
+  .projectsSquareContainer {
+    margin: 5px;
+    flex-direction: column;
+  }
+
+  .projectsSquare {
+    width: 100%;
+    height: 220px;
+    margin: 15px 0;
+  }
+
+  .selectedProjectsContent {
+    flex-direction: column;
+  }
+
+  /*  Portfolio   */
+
+  .projects {
+    justify-content: initial;
+  }
+  .firstColumnSelectedProjects {
+    width: 100%;
+  }
+}

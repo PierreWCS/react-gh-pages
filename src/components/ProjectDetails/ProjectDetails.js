@@ -1,18 +1,19 @@
-import React, { useState } from "react";
-import "./ProjectDetails.css";
-import Carousel from "./Carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
+import React, { useState } from 'react';
+import './ProjectDetails.css';
+import Carousel from './Carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const ProjectDetails = ({ setProjectDetails, imagesData }) => {
-  const [fullScreen, setFullScreen] = useState(false);
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+
+const ProjectDetails = ({ setIsProjectDetailsVisible, imagesData, project }) => {
+  const [isFullScreen, setIsFullScreen] = useState(false);
   const [autoPlayStatus, setAutoPlayStatus] = useState(true);
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
     <div className="projectDetailsContainer">
-      {fullScreen ? (
+      {isFullScreen && (
         <div className="imageFullSizeContainer">
           <img
             className="projectImageFullScreen"
@@ -23,7 +24,7 @@ const ProjectDetails = ({ setProjectDetails, imagesData }) => {
           <FontAwesomeIcon
             className="closeImageFullScreen fa-3x"
             onClick={() => {
-              setFullScreen(false);
+              setIsFullScreen(false);
               setAutoPlayStatus(true);
               setSelectedImage(null);
             }}
@@ -31,48 +32,36 @@ const ProjectDetails = ({ setProjectDetails, imagesData }) => {
             icon={faTimesCircle}
           />
         </div>
-      ) : null}
+      )}
       <button
         className="closeDetailsButton"
         onClick={() => {
-          document.body.style.overflow = "auto";
-          setProjectDetails(false);
+          document.body.style.overflow = 'auto';
+          setIsProjectDetailsVisible(false);
         }}
       >
         Close
       </button>
       <div className="firstColDetails">
         <Carousel
-          selectedImage={selectedImage}
-          setSelectedImage={setSelectedImage}
-          fullScreen={fullScreen}
-          setFullScreen={setFullScreen}
           autoPlayStatus={autoPlayStatus}
-          setAutoPlayStatus={setAutoPlayStatus}
           imagesData={imagesData}
+          setAutoPlayStatus={setAutoPlayStatus}
+          setFullScreen={setIsFullScreen}
+          setSelectedImage={setSelectedImage}
         />
       </div>
       <div className="secondColDetails">
-        <h2>{imagesData.name}.</h2>
+        <h2>{project.name}.</h2>
         <h3>Description.</h3>
-        <p>{imagesData.description}</p>
+        <p>{project.description}</p>
         <h3>Technologies.</h3>
-        <p>{imagesData.technologies}</p>
+        <p>{project.technologies}</p>
         <div className="buttonsContainerProjectDetails">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={imagesData.link}
-            className="githubLinkDetails"
-          >
+          <a target="_blank" rel="noopener noreferrer" href={project.link} className="githubLinkDetails">
             See code
           </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={imagesData.demo}
-            className="githubLinkDetails"
-          >
+          <a target="_blank" rel="noopener noreferrer" href={project.demo} className="githubLinkDetails">
             Try the demo
           </a>
         </div>

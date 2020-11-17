@@ -1,0 +1,118 @@
+.header {
+  background-color: #333646;
+  display: flex;
+  justify-content: center;
+  padding: 15rem 0;
+  width: 100%;
+}
+
+.headerContent {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.columnOneHeader {
+  color: #ebebec;
+  width: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nameTitle {
+  font-size: 66px;
+  margin: -10px 0;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-shadow: 0 3px 9px #252734, 0 -2px 1px #fff;
+}
+
+.separatorHeader {
+  border: none;
+  height: 7px;
+  width: 50px;
+  background-color: #ffaf29;
+  margin: 15px 0 0 0;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin: 75px 0 0 0;
+}
+
+.iconHeader {
+  transition: ease-in-out 0.2s;
+}
+
+.linkIconHeader:hover {
+  transform: scale(1.1);
+}
+.linkIconHeader:hover .iconHeader {
+  color: #ffaf29;
+}
+
+.columnTwoHeader {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.introHeader {
+  width: 60%;
+  color: #acadb2;
+  margin: 10px 0;
+}
+
+.subtitleHeader {
+  margin: 0 0 15px 0;
+  color: #ebebec;
+  width: 60%;
+}
+
+.subtitleHeaderText {
+  color: #acadb2;
+  width: 60%;
+}
+
+@media (max-width: 1060px) {
+  .header {
+    height: auto;
+    padding: 50px 25px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reactIconHeader {
+    display: none;
+  }
+
+  .headerContent {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .iconContainer {
+    margin: 65px 0 0 0;
+  }
+
+  .columnOneHeader p {
+    font-size: 46px;
+  }
+
+  .subtitleHeader {
+    width: 100%;
+  }
+
+  .columnTwoHeader {
+    margin-top: 25px;
+    width: 100%;
+    align-items: flex-start;
+  }
+}

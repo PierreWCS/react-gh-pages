@@ -1,7 +1,9 @@
 [
   {
     "name": "Wild Beers",
-    "description": "Fake beer shop with the most commons features of a shop (cart, account, orders, products) with an admin panel.",
+    "id": "1",
+    "description": "Fake beer shop with the most commons features of a shop (cart, account, orders, products) and an administration panel.",
+    "type": "Branding, development",
     "technologies": "React, Node, Express, MySQL",
     "demo": "https://beer-shop-wcs.netlify.app/",
     "link": "https://github.com/PierreWCS/beer-shop",
@@ -34,7 +36,9 @@
   },
   {
     "name": "Solo blackjack",
+    "id": "2",
     "description": "Web application for playing blackjack against the Bank. User can bet an amount of coins every round.",
+    "type": "API, Development",
     "technologies": "React",
     "demo": "https://my-blackjack.netlify.app/",
     "link": "https://github.com/PierreWCS/blackjack",
@@ -55,7 +59,9 @@
   },
   {
     "name": "Siege Stats",
+    "id": "3",
     "description": "Web application to get advanced statistics about Rainbow Six Siege players, with propositions during typing the username.",
+    "type": "Game, development",
     "technologies": "React, Rainbow Six Siege API",
     "demo": "https://my-siege.netlify.app/",
     "link": "https://github.com/PierreWCS/blackjack",
