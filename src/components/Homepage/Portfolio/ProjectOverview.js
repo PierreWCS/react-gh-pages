@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './ProjectOverview.css';
 
 import projectsData from '../../ProjectDetails/projectsData.json';
@@ -8,7 +8,7 @@ const ProjectOverview = ({ project, setSelectedProject, setSelectedImageData, se
     onClick={() => {
       setSelectedProject(project);
       setIsProjectDetailsVisible(true);
-      setSelectedImageData(projectsData[project.id]);
+      setSelectedImageData(projectsData[project.id - 1]);
       document.body.style.overflow = 'hidden';
     }}
     key={project.id}
@@ -16,11 +16,7 @@ const ProjectOverview = ({ project, setSelectedProject, setSelectedImageData, se
     style={project.id % 2 ? { backgroundColor: '#424657' } : null}
   >
     <div className="imageContainer">
-      <img
-        className="projectImage"
-        src={require(`../../../assets/images/${project.images[0].image}`)}
-        alt="blackjack"
-      />
+      <img className="projectImage" src={require(`../../../assets/images/${project.images[0].image}`)} alt="blackjack" />
     </div>
 
     <div className="projectTextContainer textRight">

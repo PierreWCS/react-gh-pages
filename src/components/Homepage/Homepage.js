@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Homepage.css';
 import Footer from '../Footer/Footer';
 import Portfolio from './Portfolio/Portfolio';
