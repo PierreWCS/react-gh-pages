@@ -9,6 +9,15 @@
   margin: 1rem 0;
   padding: 2rem 1.5rem;
   box-sizing: border-box;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.projectOverview:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.projectOverviewDark {
+  background-color: #424657;
 }
 
 .selectedProjects {
@@ -55,7 +64,7 @@
   width: 40%;
   color: #ebebec;
   text-align: start;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
 }
 

@@ -1,25 +1,27 @@
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import './ProjectDetails.css';
+import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "./ProjectDetails.css";
 
-export default ({ autoPlayStatus, imagesData, setAutoPlayStatus, setFullScreen, setSelectedImage }) => (
+const MyCarousel = ({ autoPlayStatus, projectImages, setAutoPlayStatus }) => (
   <Carousel infiniteLoop={true} autoPlay={autoPlayStatus} showThumbs={false}>
-    {imagesData
-      ? imagesData.images.map((projectImage, key) => {
+    {projectImages
+      ? projectImages.map((projectImage, key) => {
           return (
             <div
-              style={{ cursor: 'pointer' }}
               onClick={() => {
                 setAutoPlayStatus(false);
-                setFullScreen(true);
-                setSelectedImage(projectImage);
               }}
               key={key}
             >
-              <img src={require(`../../assets/images/${projectImage.image}`)} alt="" />
+              <img
+                src={require(`../../assets/images/${projectImage.image}`)}
+                alt={projectImage.legend}
+              />
             </div>
           );
         })
       : null}
   </Carousel>
 );
+
+export default MyCarousel;

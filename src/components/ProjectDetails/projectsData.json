@@ -1,7 +1,53 @@
 [
   {
+    "name": "Chat app",
+    "id": "4",
+    "description": "Application to chat with your friends using websockets and uber components library.",
+    "type": "Websockets, Development",
+    "technologies": "React, Node, Websockets, BaseWEB",
+    "demo": "https://client-chat-app-pierrewcs.herokuapp.com/",
+    "link": "https://github.com/PierreWCS/socket.io-chat",
+    "images": [
+      {
+        "image": "chatapp/home.PNG",
+        "legend": "Homepage"
+      },
+      {
+        "image": "chatapp/connect.PNG",
+        "legend": "Connect page"
+      },
+      {
+        "image": "chatapp/chatroom.PNG",
+        "legend": "Chat room"
+      }
+    ]
+  },
+  {
+    "name": "Solo blackjack",
+    "id": "3",
+    "description": "Web application for playing blackjack against the Bank. User can bet an amount of coins every round.",
+    "type": "API, Development",
+    "technologies": "React",
+    "demo": "https://my-blackjack.netlify.app/",
+    "link": "https://github.com/PierreWCS/blackjack",
+    "images": [
+      {
+        "image": "blackjack/blackjackHomepage.jpg",
+        "legend": "Home page"
+      },
+      {
+        "image": "blackjack/my-blackjack.jpg",
+        "legend": "Game"
+      },
+      {
+        "image": "blackjack/blackjackWin.jpg",
+        "legend": "Victory"
+      }
+    ]
+  },
+  {
     "name": "Wild Beers",
-    "id": "1",
+    "id": "2",
     "description": "Fake beer shop with the most commons features of a shop (cart, account, orders, products) and an administration panel.",
     "type": "Branding, development",
     "technologies": "React, Node, Express, MySQL",
@@ -35,32 +81,9 @@
     ]
   },
   {
-    "name": "Solo blackjack",
-    "id": "2",
-    "description": "Web application for playing blackjack against the Bank. User can bet an amount of coins every round.",
-    "type": "API, Development",
-    "technologies": "React",
-    "demo": "https://my-blackjack.netlify.app/",
-    "link": "https://github.com/PierreWCS/blackjack",
-    "images": [
-      {
-        "image": "blackjack/blackjackHomepage.jpg",
-        "legend": "Home page"
-      },
-      {
-        "image": "blackjack/my-blackjack.jpg",
-        "legend": "Game"
-      },
-      {
-        "image": "blackjack/blackjackWin.jpg",
-        "legend": "Victory"
-      }
-    ]
-  },
-  {
     "name": "Siege Stats",
-    "id": "3",
-    "description": "Web application to get advanced statistics about Rainbow Six Siege players, with propositions during typing the username.",
+    "id": "1",
+    "description": "Web application to get advanced statistics on Rainbow Six Siege players, with suggestions when entering the username.",
     "type": "Game, development",
     "technologies": "React, Rainbow Six Siege API",
     "demo": "https://my-siege.netlify.app/",
