@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bacf6c60e789fbd33228607d93d08c6f",
+    "revision": "c3122a1901db7ee2032c7cebecb1bb29",
     "url": "/react-gh-pages/index.html"
   },
   {
-    "revision": "13f1bed1f0fa6b503a40",
-    "url": "/react-gh-pages/static/css/2.afd40c00.chunk.css"
+    "revision": "72b89ccf7cd9a20ab9a0",
+    "url": "/react-gh-pages/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "8adbede973a4a3a53689",
-    "url": "/react-gh-pages/static/css/main.c698ba57.chunk.css"
+    "revision": "a94e2dc120517e09ceff",
+    "url": "/react-gh-pages/static/css/main.d24c684c.chunk.css"
   },
   {
-    "revision": "13f1bed1f0fa6b503a40",
-    "url": "/react-gh-pages/static/js/2.12a1ad61.chunk.js"
+    "revision": "72b89ccf7cd9a20ab9a0",
+    "url": "/react-gh-pages/static/js/2.45aa43d1.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/react-gh-pages/static/js/2.12a1ad61.chunk.js.LICENSE.txt"
+    "revision": "2e4006462c0e99f248488d90160912a5",
+    "url": "/react-gh-pages/static/js/2.45aa43d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8adbede973a4a3a53689",
-    "url": "/react-gh-pages/static/js/main.06521d33.chunk.js"
+    "revision": "a94e2dc120517e09ceff",
+    "url": "/react-gh-pages/static/js/main.0880cede.chunk.js"
   },
   {
-    "revision": "75ed6fca3955327d5e61",
-    "url": "/react-gh-pages/static/js/runtime-main.baa204dc.js"
+    "revision": "cf4a7d08534fbfc02642",
+    "url": "/react-gh-pages/static/js/runtime-main.f54060b7.js"
   },
   {
     "revision": "8ddfa14ebb7ea2ac0f013d80cda26bbb",
@@ -70,6 +70,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8f5ddfb549a93354d25ac5ea623d5898",
     "url": "/react-gh-pages/static/media/captureSales.8f5ddfb5.png"
+  },
+  {
+    "revision": "37cba7934ce4779e18766c73845b80a8",
+    "url": "/react-gh-pages/static/media/chatroom.37cba793.PNG"
+  },
+  {
+    "revision": "ea3cf83389bfbba5ef4887093816b41b",
+    "url": "/react-gh-pages/static/media/connect.ea3cf833.PNG"
+  },
+  {
+    "revision": "42d92973a6bfae505e07bc5f597b65d4",
+    "url": "/react-gh-pages/static/media/home.42d92973.PNG"
   },
   {
     "revision": "86e4f0bcc36b16f426894e92eea0231e",
