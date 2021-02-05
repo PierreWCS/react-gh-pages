@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import "./ProjectDetails.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const MyCarousel = ({ projectImages }) => (
   <Carousel infiniteLoop={true} autoPlay={false} showThumbs={false}>
@@ -9,7 +9,7 @@ const MyCarousel = ({ projectImages }) => (
         return (
           <div key={key}>
             <img
-              src={require(`../../assets/images/${projectImage.image}`)}
+              src={require(`../../../assets/images/${projectImage.image}`)}
               alt={projectImage.legend}
             />
           </div>

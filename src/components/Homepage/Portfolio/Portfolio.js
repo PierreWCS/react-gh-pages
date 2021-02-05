@@ -1,25 +1,14 @@
 /* eslint-disable no-lone-blocks */
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faNodeJs } from "@fortawesome/free-brands-svg-icons";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 
-import ProjectDetails from "../../ProjectDetails/ProjectDetails";
-import projectsData from "../../ProjectDetails/projectsData.json";
+import projectsData from "./projectsData.json";
 import ProjectOverview from "./ProjectOverview";
 import "./Portfolio.css";
 
 const Portfolio = () => {
-  const [isProjectDetailsVisible, setIsProjectDetailsVisible] = useState(false);
-  const [selectedProject, setSelectedProject] = useState(false);
-  const [selectedImagesData, setSelectedImageData] = useState(null);
-  const [autoPlayStatus, setAutoPlayStatus] = useState(true);
-  const [isCarouselFullScreen, setIsCarouselFullScreen] = useState(true);
-
-  useEffect(() => {
-    console.log("selectedImagesData", selectedImagesData);
-  }, [selectedImagesData]);
-
   return (
     <div className="projects">
       {/*  three technologies  */}
@@ -98,22 +87,11 @@ const Portfolio = () => {
 
           <div className="selectedProjectsContent">
             {projectsData.map((project) => (
-              <ProjectOverview
-                key={project.id}
-                project={project}
-                setIsCarouselFullScreen={setIsCarouselFullScreen}
-              />
+              <ProjectOverview key={project.id} project={project} />
             ))}
           </div>
         </div>
       </div>
-      {isProjectDetailsVisible && (
-        <ProjectDetails
-          setIsProjectDetailsVisible={setIsProjectDetailsVisible}
-          imagesData={selectedImagesData}
-          project={selectedProject}
-        />
-      )}
     </div>
   );
 };
