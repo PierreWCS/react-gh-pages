@@ -2,18 +2,13 @@
 
 .projectOverview {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #252734;
   width: 100%;
-  height: 22rem;
   margin: 1rem 0;
   padding: 2rem 1.5rem;
   box-sizing: border-box;
   transition: ease 0.3s;
-  cursor: pointer;
-}
-.projectOverview:hover {
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .projectOverviewDark {
@@ -45,27 +40,43 @@
   width: 300px;
 }
 
-.firstColumnSelectedProjects h2 {
-  color: #ebebec;
-  margin-top: 1rem;
-}
-
-.firstColumnSelectedProjects p {
-  color: #acadb2;
-}
-
 .imageContainer {
-  width: 60%;
+  width: 100%;
   transition: ease-in-out 0.3s;
-  cursor: pointer;
+  height: 100%;
+}
+
+.projectImage {
+  height: 100%;
 }
 
 .projectTextContainer {
-  width: 40%;
+  width: 100%;
+  padding: 1rem 0;
   color: #ebebec;
   text-align: start;
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
+}
+
+.projectDescriptionContainer {
+  width: 50%;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+.projectTechsContainer {
+  width: 25%;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+.columnButtonsText {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: flex-start;
 }
 
 .textLeft {
@@ -77,8 +88,10 @@
 }
 
 .projectTitle {
-  margin: 0;
-  padding-bottom: 0.2rem;
+  margin: 0 0 0.2rem;
+  width: 100%;
+  text-align: start;
+  color: #ebebec;
 }
 
 .underlineProjectTitle {
@@ -87,23 +100,27 @@
   width: 2rem;
 }
 
-.projectImage {
-  width: 100%;
-  max-height: 100%;
-}
-
 @media (max-width: 1060px) {
   .projectOverview {
     flex-direction: column;
     height: auto;
   }
 
-  .imageContainer {
+  .projectDescriptionContainer,
+  .projectTechsContainer,
+  .columnButtonsText {
     width: 100%;
+    padding: 0;
   }
 
-  .projectTextContainer {
-    padding-top: 1rem;
-    width: 100%;
+  .projectDescriptionContainer,
+  .projectTechsContainer {
+    margin-bottom: 1rem;
+  }
+
+  .projectTextElementsContainers {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -9,12 +9,12 @@
     "link": "https://github.com/PierreWCS/socket.io-chat",
     "images": [
       {
-        "image": "chatapp/home.PNG",
-        "legend": "Homepage"
-      },
-      {
         "image": "chatapp/connect.PNG",
         "legend": "Connect page"
+      },
+      {
+        "image": "chatapp/home.PNG",
+        "legend": "Homepage"
       },
       {
         "image": "chatapp/chatroom.PNG",

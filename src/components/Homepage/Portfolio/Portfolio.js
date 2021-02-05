@@ -13,6 +13,8 @@ const Portfolio = () => {
   const [isProjectDetailsVisible, setIsProjectDetailsVisible] = useState(false);
   const [selectedProject, setSelectedProject] = useState(false);
   const [selectedImagesData, setSelectedImageData] = useState(null);
+  const [autoPlayStatus, setAutoPlayStatus] = useState(true);
+  const [isCarouselFullScreen, setIsCarouselFullScreen] = useState(true);
 
   useEffect(() => {
     console.log("selectedImagesData", selectedImagesData);
@@ -80,11 +82,14 @@ const Portfolio = () => {
         <div className="selectedProjects">
           <div className="firstColumnSelectedProjects">
             <div className="portfolioText">
-              <p style={{ margin: "5px 0" }}>- Portfolio</p>
+              <p style={{ margin: "5px 0", color: "#acadb2" }}>- Portfolio</p>
               <h2 style={{ width: "250px" }}>
                 All creative works, selected projects.
               </h2>
-              <p className="projectsLastMonthsText">
+              <p
+                style={{ color: "#acadb2" }}
+                className="projectsLastMonthsText"
+              >
                 Here are some of the projects I have been working these last
                 months.
               </p>
@@ -96,9 +101,7 @@ const Portfolio = () => {
               <ProjectOverview
                 key={project.id}
                 project={project}
-                setSelectedImageData={setSelectedImageData}
-                setSelectedProject={setSelectedProject}
-                setIsProjectDetailsVisible={setIsProjectDetailsVisible}
+                setIsCarouselFullScreen={setIsCarouselFullScreen}
               />
             ))}
           </div>

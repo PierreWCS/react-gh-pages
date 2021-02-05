@@ -39,6 +39,11 @@
   width: 200px;
 }
 
+.portfolioText h2 {
+  margin: 0;
+  color: #ebebec;
+}
+
 .projectSquareTitle {
   font-size: 36px;
   margin: 10px 0;
