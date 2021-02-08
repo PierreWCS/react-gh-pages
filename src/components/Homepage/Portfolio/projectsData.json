@@ -1,7 +1,7 @@
 [
   {
     "name": "Chat app",
-    "id": "4",
+    "id": "5",
     "description": "Application to chat with your friends using websockets and uber components library.",
     "type": "Websockets, Development",
     "technologies": "React, Node, Websockets, BaseWEB",
@@ -19,6 +19,33 @@
       {
         "image": "chatapp/chatroom.PNG",
         "legend": "Chat room"
+      }
+    ]
+  },
+  {
+    "name": "Reddit feed",
+    "id": "4",
+    "description": "Reddit feed application with lazyloading, NextJS and MaterialUI component library.",
+    "type": "API, Development",
+    "technologies": "React, NextJS, MaterialUI",
+    "demo": "https://nextreddit.herokuapp.com/",
+    "link": "https://github.com/PierreWCS/redditFeed",
+    "images": [
+      {
+        "image": "redditfeed/home.PNG",
+        "legend": "Default feed"
+      },
+      {
+        "image": "redditfeed/subreddit.PNG",
+        "legend": "Sub reddit"
+      },
+      {
+        "image": "redditfeed/search.PNG",
+        "legend": "Search subreddit"
+      },
+      {
+        "image": "redditfeed/subredditSearch.PNG",
+        "legend": "Specific sub reddit by search"
       }
     ]
   },
