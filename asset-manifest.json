@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.cc32dd24.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.c52b8457.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.c52b8457.chunk.js.map",
+    "main.js": "/react-gh-pages/static/js/main.6948deee.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.6948deee.chunk.js.map",
     "runtime-main.js": "/react-gh-pages/static/js/runtime-main.f54060b7.js",
     "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.f54060b7.js.map",
     "static/css/2.fb346933.chunk.css": "/react-gh-pages/static/css/2.fb346933.chunk.css",
     "static/js/2.5dfa0b5e.chunk.js": "/react-gh-pages/static/js/2.5dfa0b5e.chunk.js",
     "static/js/2.5dfa0b5e.chunk.js.map": "/react-gh-pages/static/js/2.5dfa0b5e.chunk.js.map",
     "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.663545b59934d8f4888f0b85d4d2acb0.js": "/react-gh-pages/precache-manifest.663545b59934d8f4888f0b85d4d2acb0.js",
+    "precache-manifest.7bd1e2e815c59086adea3054938b8ae9.js": "/react-gh-pages/precache-manifest.7bd1e2e815c59086adea3054938b8ae9.js",
     "service-worker.js": "/react-gh-pages/service-worker.js",
     "static/css/2.fb346933.chunk.css.map": "/react-gh-pages/static/css/2.fb346933.chunk.css.map",
     "static/css/main.cc32dd24.chunk.css.map": "/react-gh-pages/static/css/main.cc32dd24.chunk.css.map",
@@ -27,13 +27,16 @@
     "static/media/captureSales.png": "/react-gh-pages/static/media/captureSales.8f5ddfb5.png",
     "static/media/chatroom.PNG": "/react-gh-pages/static/media/chatroom.37cba793.PNG",
     "static/media/connect.PNG": "/react-gh-pages/static/media/connect.ea3cf833.PNG",
-    "static/media/home.PNG": "/react-gh-pages/static/media/home.42d92973.PNG",
+    "static/media/home.PNG": "/react-gh-pages/static/media/home.8b73c9bb.PNG",
     "static/media/my-blackjack.PNG": "/react-gh-pages/static/media/my-blackjack.86e4f0bc.PNG",
     "static/media/my-blackjack.jpg": "/react-gh-pages/static/media/my-blackjack.bf53ce19.jpg",
     "static/media/mysiege.PNG": "/react-gh-pages/static/media/mysiege.d3a12409.PNG",
     "static/media/operators.jpg": "/react-gh-pages/static/media/operators.b7b70ce0.jpg",
     "static/media/overviewRanked.jpg": "/react-gh-pages/static/media/overviewRanked.34de022c.jpg",
+    "static/media/search.PNG": "/react-gh-pages/static/media/search.0ddf7b93.PNG",
     "static/media/searchAplayer.jpg": "/react-gh-pages/static/media/searchAplayer.5b656b2c.jpg",
+    "static/media/subreddit.PNG": "/react-gh-pages/static/media/subreddit.aaf9de0f.PNG",
+    "static/media/subredditSearch.PNG": "/react-gh-pages/static/media/subredditSearch.7411ae2e.PNG",
     "static/media/wildbeers.PNG": "/react-gh-pages/static/media/wildbeers.e8a81de3.PNG"
   },
   "entrypoints": [
@@ -41,6 +44,6 @@
     "static/css/2.fb346933.chunk.css",
     "static/js/2.5dfa0b5e.chunk.js",
     "static/css/main.cc32dd24.chunk.css",
-    "static/js/main.c52b8457.chunk.js"
+    "static/js/main.6948deee.chunk.js"
   ]
 }

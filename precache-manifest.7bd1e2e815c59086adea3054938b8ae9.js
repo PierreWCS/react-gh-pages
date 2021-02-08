@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe759c7679187c54e2787ea710bd4ca0",
+    "revision": "337d0ef10472fa7afb5011d41c7e2469",
     "url": "/react-gh-pages/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-gh-pages/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "b9c9ce3dedbc63267add",
+    "revision": "3869cbb037bc8068e801",
     "url": "/react-gh-pages/static/css/main.cc32dd24.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-gh-pages/static/js/2.5dfa0b5e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9c9ce3dedbc63267add",
-    "url": "/react-gh-pages/static/js/main.c52b8457.chunk.js"
+    "revision": "3869cbb037bc8068e801",
+    "url": "/react-gh-pages/static/js/main.6948deee.chunk.js"
   },
   {
     "revision": "cf4a7d08534fbfc02642",
@@ -84,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-gh-pages/static/media/home.42d92973.PNG"
   },
   {
+    "revision": "8b73c9bb3c1bd9a4a2049e1fdd93bc26",
+    "url": "/react-gh-pages/static/media/home.8b73c9bb.PNG"
+  },
+  {
     "revision": "86e4f0bcc36b16f426894e92eea0231e",
     "url": "/react-gh-pages/static/media/my-blackjack.86e4f0bc.PNG"
   },
@@ -104,8 +108,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-gh-pages/static/media/overviewRanked.34de022c.jpg"
   },
   {
+    "revision": "0ddf7b937580187af11194ef1b76e638",
+    "url": "/react-gh-pages/static/media/search.0ddf7b93.PNG"
+  },
+  {
     "revision": "5b656b2c58a255b48b427bd87e1039e7",
     "url": "/react-gh-pages/static/media/searchAplayer.5b656b2c.jpg"
+  },
+  {
+    "revision": "aaf9de0f82812cab004f0e17c68d3e15",
+    "url": "/react-gh-pages/static/media/subreddit.aaf9de0f.PNG"
+  },
+  {
+    "revision": "7411ae2eb33e573d4866b2cf062e53f2",
+    "url": "/react-gh-pages/static/media/subredditSearch.7411ae2e.PNG"
   },
   {
     "revision": "e8a81de387892fe158673d6fd66aa121",
