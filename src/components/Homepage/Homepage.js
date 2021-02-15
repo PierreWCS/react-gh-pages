@@ -4,41 +4,45 @@ import Footer from "../Footer/Footer";
 import Portfolio from "./Portfolio/Portfolio";
 import Header from "./Header/Header";
 import About from "./About/About";
+import CustomScroll from "../../utils/CustomScroll";
 
 const Homepage = () => {
   const containerRef = useRef(null);
+  let isScrolling = false;
 
-  const customScroll = (direction, distance, interval, nbIncrem) => {
-    let scrollStart = 0;
-    let myInterval = setInterval(scrollAnimate, interval);
+  const handleScroll = async (direction, distance, interval, nbIncrem) => {
+    if (isScrolling === false) {
+      isScrolling = true;
 
-    function scrollAnimate() {
-      if (scrollStart === distance) {
-        clearInterval(myInterval);
-      } else {
-        scrollStart++;
-        if (direction === "down") {
-          containerRef.current.scrollTop += nbIncrem;
-        } else if (direction === "up") {
-          containerRef.current.scrollTop -= nbIncrem;
+      const scrollRes = CustomScroll.scrollAnimate(
+        containerRef,
+        direction,
+        distance,
+        interval,
+        nbIncrem
+      );
+      scrollRes.then((value) => {
+        if (value.status === "over") {
+          setTimeout(() => (isScrolling = false), 250);
         }
-      }
+      });
     }
   };
 
-  window.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowUp") {
-      customScroll("up", 5, 10, 10);
-    } else if (e.key === "ArrowDown") {
-      customScroll("down", 5, 10, 10);
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowUp") {
+      handleScroll("up", 25, 10, 10);
+    } else if (event.key === "ArrowDown") {
+      handleScroll("down", 25, 10, 10);
     }
   });
 
-  window.addEventListener("wheel", (e) => {
-    if (e.wheelDeltaY > 0) {
-      customScroll("up", 50, 10, 10);
-    } else {
-      customScroll("down", 5, 10, 10);
+  window.addEventListener("wheel", (event) => {
+    // If the wheelDelta is negative, that means user goes down
+    if (event.wheelDeltaY > 0) {
+      handleScroll("up", 25, 10, 10);
+    } else if (event.wheelDeltaY < 0) {
+      handleScroll("down", 25, 10, 10);
     }
   });
 
