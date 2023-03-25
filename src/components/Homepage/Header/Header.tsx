@@ -9,9 +9,9 @@ import {
 import "./Header.css";
 
 const Header = () => {
-  const [iconPositionX, setIconPositionX] = useState(null);
+  const [iconPositionX, setIconPositionX] = useState<number>();
 
-  function handleOver(event) {
+  function handleOver(event: any) {
     let positionX = (window.innerWidth / 1.05 - event.clientX) / 1.1;
     if (positionX > 100 && positionX < 1870) {
       setIconPositionX(positionX);
@@ -24,7 +24,7 @@ const Header = () => {
         <FontAwesomeIcon
           style={{
             position: "absolute",
-            zIndex: "0",
+            zIndex: 0,
             left: iconPositionX || "10%",
             top: "15%",
             transition: "transform ease 200ms",

@@ -1,17 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ProjectOverview.css";
 
 import MyCarousel from "./Carousel";
 import ProjectText from "./ProjectText";
+import { Project } from "./types";
 
-const ProjectOverview = ({ project }) => {
+type Props = {
+  project: Project;
+};
+const ProjectOverview = ({ project }: Props) => {
+  const isDarkBackground = !!(Number(project.id) % 2);
+
   return (
     <div
-      className={
-        project.id % 2
-          ? "projectOverview projectOverviewDark"
-          : "projectOverview"
-      }
+      className={`projectOverview ${isDarkBackground && "projectOverviewDark"}`}
     >
       <h2 className="projectTitle">{project.name}</h2>
       <div className="underlineProjectTitle" />

@@ -1,3 +1,9 @@
+.projectTextElementsContainers {
+  display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+ }
 .projectTextContainer {
   width: 100%;
   padding: 1rem 0;

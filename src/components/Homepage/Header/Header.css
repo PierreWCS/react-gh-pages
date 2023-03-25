@@ -47,11 +47,11 @@
   transition: ease-in-out 0.2s;
 }
 
-.linkIconHeader:hover {
-  transform: scale(1.1);
-}
 .linkIconHeader:hover .iconHeader {
   color: #ffaf29;
+  transition: ease-in-out .200s;
+
+  transform: scale(1.3);
 }
 
 .columnTwoHeader {

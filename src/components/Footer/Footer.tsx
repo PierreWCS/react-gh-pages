@@ -8,7 +8,7 @@ const Footer = () => (
   <div className="footer">
     <div className="footerContent">
       <div className="firstColumnFooter">
-        <p>Looking for a front-end developer?</p>
+        <p>You have a project?</p>
         <p>Let's talk about it.</p>
         <p style={{ color: "#FFAF29", textDecoration: "underline" }}>
           pierrelegrain45@gmail.com
